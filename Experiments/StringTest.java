@@ -30,5 +30,10 @@ public class StringTest {
         System.out.println(c.hashCode());
         a = "Updated";
         System.out.println(a.hashCode());
+        String simmutable = new String("immutable");
+        // if (simmutable[0] == 'n')
+        if (simmutable.charAt(0) == 'n')
+            System.out.println("Cimpared");
+        else System.out.println("No");
     }
 }
